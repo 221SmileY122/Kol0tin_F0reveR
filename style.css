@@ -1,0 +1,59 @@
+/* Общие стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Заголовки */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Навигация */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Галерея мемов */
+.memes-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.memes-gallery img {
+    max-width: 250px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.memes-gallery img:hover {
+    transform: scale(1.05);
+    border-color: #
